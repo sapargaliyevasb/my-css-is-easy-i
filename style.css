@@ -1,0 +1,37 @@
+*{
+     text-align: center;
+     margin: 0;
+ }
+ 
+ .Header{
+     background-color:#00B7EB
+ }
+ .Hero{
+     background-color:#FF0000
+ }
+ .Content{
+     width: 50%;
+     background-color:#00FF00
+ }
+ .Sidebar{
+     width: 50%;
+     background-color:#800080
+ }
+ .Footer{
+     background-color:#444444
+ }
+ .flex-container {
+     display:flex;
+     flex-direction: row;
+ }
+ 
+ @media (max-width: 450px){ /*w3school*/
+     .flex-container{
+         display:flex;
+         flex-direction: column;
+     }.Content{
+         width: 100%;
+     }.Sidebar{
+         width: 100%;
+     }
+ }
